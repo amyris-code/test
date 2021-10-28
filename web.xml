@@ -8,5 +8,6 @@
 	<bean id="userService" class="cn.zdxh.ioc.UserServiceImpl">
 	   <property name="userDao" ref="userDao" />
 	</bean>
-	
+
+	<bean id="MyAspect" class="cn.zdxh.ioc.factorybean.MyAspect" />
 </beans>

@@ -10,4 +10,5 @@
 	</bean>
 
 	<bean id="MyAspect" class="cn.zdxh.ioc.factorybean.MyAspect" />
+	<bean id="lbm" class="com.jdbc.lbm"/>
 </beans>
